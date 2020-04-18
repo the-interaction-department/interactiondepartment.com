@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    margin-top: 80px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-color: #222;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muli', sans-serif;
+}
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:200;
+    font-size: .75rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: inline;
+}
+a {
+    color: #4E7998;
+    font-size: .75rem;
+    text-decoration: none;
+    background-color: transparent;
+}
+h1, .h1 {
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+h2, .h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: .75rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.section-padding {
+  padding-top: 20px;
+}
+.info-box {
+  padding: 16px 20px 20px 20px;
+}
+.info-copy {
+    padding-left:60px;
+    font-family: Titillium Web, serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: .75rem;
+    line-height: 1rem;
+    display: inline;
+}
+.foot {
+  position: relative;
+  bottom: 40px;
+}
+.logo {
+  margin-bottom: 8px;
+}
+.mtc {
+  margin-top: 55px;
+}
+h1.copyright {
+    font-weight: 200;
+    font-size: .7rem;
+}
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    vertical-align: bottom;
+    font-size: .75rem;
+
+  }
+
+  body{
+    margin-top:40px;
+  }
+}
+
+/*!* Grain Animation *!*/
+/*main::before {*/
+/*    animation: grain 8s steps(10) infinite;*/
+/*    background-image: url(../images/noiseInvert.png);*/
+/*    content: '';*/
+/*    height: 300%;*/
+/*    left: -50%;*/
+/*    opacity: 0.6;*/
+/*    position: fixed;*/
+/*    top: -100%;*/
+/*    width: 300%;*/
+/*  margin-top:80px;*/
+/*}*/
+
+/*@keyframes grain {*/
+/*  0%, 100% { transform:translate(0, 0); }*/
+/*  10% { transform:translate(-5%, -10%); }*/
+/*  20% { transform:translate(-15%, 5%); }*/
+/*  30% { transform:translate(7%, -25%); }*/
+/*  40% { transform:translate(-5%, 25%); }*/
+/*  50% { transform:translate(-15%, 10%); }*/
+/*  60% { transform:translate(15%, 0%); }*/
+/*  70% { transform:translate(0%, 15%); }*/
+/*  80% { transform:translate(3%, 35%); }*/
+/*  90% { transform:translate(-10%, 10%); }*/
+/*}*/
+/*!* Grain animation end *!*/
