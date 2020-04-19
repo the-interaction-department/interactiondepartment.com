@@ -71,6 +71,12 @@ h1.copyright {
     font-weight: 200;
     font-size: .7rem;
 }
+.sixh {
+    font-weight: 600;
+}
+.full-width {
+    width: 100%;
+}
 @media (min-width: 1440px) {
     .container {
         max-width: 1140px;
@@ -81,7 +87,6 @@ h1.copyright {
   h1 {
     vertical-align: bottom;
     font-size: .75rem;
-
   }
 
   body{
