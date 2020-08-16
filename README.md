@@ -1,11 +1,8 @@
 # interactiondepartment.com
-*🖥️ The Interaction Department Website*
+*The Interaction Department Website 🖥️*
 
 ## Description
 This website can be found at [interactiondepartment.com](https://interactiondepartment.com/)
-
-## Dependencies
-- This website uses Bootstrap fro CSS
 
 ## Tested On
 - Chrome
